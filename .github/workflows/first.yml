@@ -9,6 +9,10 @@ jobs:
         steps:
         - name: step 1
           uses: actions/checkout@v2
+          with:
+            repository: firdausng/TestManagementApp
+            ref: master
+            path: ./TestManagementApp
         - name: step 2
           run: env| sort
     jobs:

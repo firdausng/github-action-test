@@ -15,7 +15,7 @@ jobs:
             path: ./TestManagementApp
         - name: step 2
           run: |
-               ld -ltr
+               ls -ltr
     jobs:
         name: second job
         runs-on: windows-latest

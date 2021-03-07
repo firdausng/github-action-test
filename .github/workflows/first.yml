@@ -14,7 +14,8 @@ jobs:
             ref: master
             path: ./TestManagementApp
         - name: step 2
-          run: env| sort
+          run: |
+               ld -ltr
     jobs:
         name: second job
         runs-on: windows-latest
